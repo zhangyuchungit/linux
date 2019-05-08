@@ -6,7 +6,7 @@
 array=(chayu_0915)
 now_date=`date +%Y%m%d`
 old_date=`date +%Y%m%d --date="-1 week"`
-order_mysql="/usr/bin/mysqldump -uroot -pbetchayuttl -h192.168.40.241 -B --single-transaction"
+order_mysql="/usr/bin/mysqldump -uroot -p**** -h192.168.40.241 -B --single-transaction"
 dir_mysql="/data/mysql/backup"
 echo "当前时间:$now_date"
 [ -d $mysql_dir ] &&{
